@@ -44,7 +44,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -197,7 +197,7 @@ post_pagination: 1
 noticeOutdate:
   enable: false
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -233,7 +233,7 @@ aside:
       text: Follow Me
       link: https://github.com/beanonlooker
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -640,7 +640,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(http://pic1.zhimg.com/v2-19487dece3b094050f8b030a993bdd76_r.jpg)
+background: url(https://pic1.zhimg.com/v2-19487dece3b094050f8b030a993bdd76_r.jpg)
 
 # Footer Background
 footer_bg: false
@@ -747,7 +747,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -922,7 +922,7 @@ wowjs:
   animateitem:
     - class: recent-post-item #必填项，需要添加动画的元素的class
       style: animate__zoomIn #必填项，需要添加的动画
-      duration: 1.5s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      duration: 1s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
       delay: 200ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
       offset: 30 #选填项，开始动画的距离（相对浏览器底部）
       iteration: 1 #选填项，动画重复的次数
@@ -974,10 +974,10 @@ footer_beautify:
   bdageitem:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
-      message: 博客框架为Hexo_v5.4.0 #徽标提示语
+      message: 博客框架为Hexo_v6.3.0 #徽标提示语
     - link: https://butterfly.js.org/
       shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
-      message: 主题版本Butterfly_v4.2.2
+      message: 主题版本Butterfly_v4.9.0
     # - link: https://www.jsdelivr.com/
     #   shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
     #   message: 本站使用JsDelivr为静态资源提供CDN加速
