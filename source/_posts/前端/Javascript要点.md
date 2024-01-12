@@ -1,8 +1,11 @@
 ---
 title: Javascript要点
-tags: [前端,JavaScript]
-date: 2024-01-12 14:24:40
+tags:
+  - 前端
+  - JavaScript
 categories: 前端
+abbrlink: 67a2d32c
+date: 2024-01-12 14:24:40
 cover:
 ---
 # Javascript要点
